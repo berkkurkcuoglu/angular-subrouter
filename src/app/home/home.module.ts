@@ -7,6 +7,7 @@ import { SubHeaderComponent } from './components/sub-header/sub-header.component
 import { ContentComponent } from './components/content/content.component';
 import { Content2Component } from './components/content2/content2.component';
 import { Content3Component } from './components/content3/content3.component';
+import { Content4Component } from './components/content4/content4.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { Content3Component } from './components/content3/content3.component';
     SubHeaderComponent,
     ContentComponent,
     Content2Component,
-    Content3Component
+    Content3Component,
+    Content4Component
   ],
   imports: [CommonModule, HomeRoutingModule]
 })

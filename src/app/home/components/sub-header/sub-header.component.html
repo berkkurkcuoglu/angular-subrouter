@@ -1,9 +1,12 @@
 <div class="content1">
-  <a [routerLink]="['content1']">content1</a>
+  <a [routerLink]="['/home/content1']">content1</a>
 </div>
 <div class="content2">
-  <a [routerLink]="['content2']">content2</a>
+  <a [routerLink]="['/home/content2']">content2</a>
 </div>
 <div class="content3">
-  <a [routerLink]="['content3']">content3</a>
+  <a [routerLink]="['/home/sa', { outlets: { outlet2: ['content3'] } }]">content3</a>
+</div>
+<div class="content4">
+  <a [routerLink]="['/home/sa', { outlets: { outlet2: ['content4'] } }]">content4</a>
 </div>
