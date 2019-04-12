@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { ContentComponent } from './components/content/content.component';
 import { LandingComponent } from './components/landing/landing.component';
 import { Content2Component } from './components/content2/content2.component';
+import { Content3Component } from './components/content3/content3.component';
 
 const routes: Routes = [
   {
@@ -12,13 +13,15 @@ const routes: Routes = [
     children: [
       {
         path: 'content1',
-        component: ContentComponent,
-        outlet: 'sub'
+        component: ContentComponent
       },
       {
         path: 'content2',
-        component: Content2Component,
-        outlet: 'sub'
+        component: Content2Component
+      },
+      {
+        path: 'content3',
+        component: Content3Component
       }
     ]
   }
